@@ -1,0 +1,568 @@
+@media only screen and (min-width: 1160px){
+    header{
+        width: 100%;
+        height: 127px;
+        position: relative;
+        
+    }
+    .logo{
+        width: 102px;
+        height: 70px;
+        position: absolute;
+        left: 159px;
+        top: 31px;
+       
+        display: inline-block;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .company_name{
+        position: absolute;
+        left: 288px;
+        top: 50px;
+        display: inline-block;
+        font-size: 36px;
+        font-family: SourceHanSansSC-Medium;
+    }
+    .banner{
+        width: 100%;
+        height: 800px;
+    }
+    .menubox{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        /* background-color: royalblue; */
+        
+        padding: 10px;
+        box-sizing: border-box;
+       /* position: absolute;*/
+        right: 0;
+        top: 90px;
+       
+    }
+    .menubox ul{
+        width: 60%;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        background-color: #ffffff;
+    }
+    .menubox ul li a{
+        float: left;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+        
+    }
+    .more{
+        display: none;
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    .link_box{
+        width: 100%;
+        height: 94px;
+        background-color: #000000;
+        opacity: 0.57;
+        text-align: center;
+        position: relative;
+    }
+    .link_box span a {
+        width: 145px;
+        height: 54px;
+        line-height: 94px;
+        font-size: 36px;
+        color: rgba(255, 255, 255, 1);
+        border-bottom: 3px solid rgba(255, 255, 255, 1);
+        margin-left:54px ;
+        
+    }
+    .link_line{
+        display: inline-block;
+        width: 1px;
+        height: 54px;
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        left: 740px;
+        top:21px ;
+    }
+
+    .nav{
+        width: 100%;
+        height: 230px;
+        
+    }
+    .nav ul{
+        width: 98%;
+        height: 126px;
+        margin: 52px 1%;
+        overflow: hidden;
+        display: inline-block;
+        box-shadow: 10px 10px 10px 10px  rgba(0, 12, 19, 0.27);
+        display: inline-flex;
+        justify-content: space-around;
+       
+    }
+    .nav ul li a{
+        float: left;
+        font-size: 28px;
+        position: relative;
+        color: rgba(51, 51, 51, 1);
+        line-height: 126px;
+        
+    } 
+    .nav ul li  ::after{
+        content: '';
+        width: 1px;
+        height: 54px;
+        display: inline-block;
+        background-color: rgba(51, 51, 51, 1);
+        position: absolute;
+        top: 39px;
+        left: -32px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .sbox{
+        width: 100%;
+        height: 350px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .sbox img{
+        width: 40%;
+        height: 320px;
+        float: left;
+        margin-top: 15px;
+        margin-left: 120px;
+    }
+    .sbox .con{
+        width:40% ;
+        height: 320px;
+        
+        float: right;
+        margin-top: 15px;
+        margin-right: 80px;
+    }
+    .sbox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 40px;
+          margin-top: 10px;
+         
+    }
+    .sbox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 20px;
+        line-height: 34px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 7; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .ebox{
+        width: 100%;
+        height: 350px;
+       
+    }
+    .ebox .con{
+        width: 40%;
+        height: 320px;
+        
+        float: left;
+        margin-top: 15px;
+        margin-left: 120px;
+    }
+    .ebox img{
+        width:40% ;
+        height: 320px;
+        
+        float: right;
+        margin-top: 15px;
+        margin-right: 80px;
+    }
+    .ebox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 40px;
+          margin-top: 10px;
+    }
+    .ebox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 20px;
+        line-height: 34px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 7; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .download{
+        width: 100%;
+        height: 94px;
+        background-color: #000000;
+        opacity: 0.57;
+        text-align: center;
+        position: relative;
+    }
+    .download span a {
+        width: 145px;
+        height: 54px;
+        line-height: 94px;
+        font-size: 36px;
+        color: rgba(255, 255, 255, 1);
+        border-bottom: 3px solid rgba(255, 255, 255, 1);
+        margin-left:54px ;
+        
+    }
+   footer{
+       width: 100%;
+       height: auto;
+      
+   }
+   footer .foot_top{
+       width: 100%;
+       height: 260px;
+       background-color: black;
+   }
+   .foot_top .top_left{
+       width: 40%;
+      
+       float: left;
+       color: rgba(255, 255, 255, 1);
+       display: inline-block;
+       line-height:24px ;
+       margin-top: 54px;
+       margin-left: 115px;
+   }
+   .foot_top .top_left h3{
+       line-height: 50px;
+
+   }
+   .foot_top .top_right{
+    width: 40%;
+    
+    float: right;
+    line-height:24px ;
+    display: inline-block;
+}
+   .foot_top .top_right h3{
+    margin-top: 54px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+   .foot_top .top_right a{
+    color: rgba(255, 255, 255, 1);
+ } 
+   .foot_bottom{
+     width: 100%;
+     height: 50px;
+     text-align: center;
+     /* line-height: 50px; */
+     border-top:1px solid rgba(255, 255, 255, 1) ;
+     background-color: black;
+     color: rgba(255, 255, 255, 1) ;
+
+ }
+   .foot_bottom span{
+     line-height: 50px;
+     margin-right: 20px;
+     
+ }
+ 
+    
+   
+
+}
+@media only screen and (max-width: 1160px){
+    header{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        
+    }
+    .logo{
+        width: 50px;
+        height:30px;
+        position: absolute;
+        left: 25px;
+        top: 15px;
+       
+        display: inline-block;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .company_name{
+        position: absolute;
+        left: 85px;
+        top: 25px;
+        display: inline-block;
+        font-size: 12px;
+        font-family: SourceHanSansSC-Medium;
+    }
+    .banner{
+        width: 100%;
+        height: 211px;
+    }
+    .more{
+        width: 35px;
+        height: 70%;
+        margin: 10px;
+        float: right;
+        
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menubox{
+        z-index: 9999;
+        width: 30%;
+        height: auto;
+        
+        background-color: rgb(31, 169, 164);
+        position: absolute;
+        right: 0px;
+        top: 45px;
+        display: none;
+    }
+    .menubox li a{
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    .link_box{
+        width: 100%;
+        height: 50px;
+        background-color: #000000;
+        opacity: 0.57;
+        text-align: center;
+        position: relative;
+    }
+    .link_box span a {
+        width: 145px;
+        height: 54px;
+        line-height: 50px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 1);
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        margin-left:30px ;
+        
+    }
+    .link_line{
+        display: inline-block;
+        width: 1px;
+        height: 28px;
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        left: 202px;
+        top:13px ;
+    }
+
+    .nav{
+        width: 100%;
+        height: 120px;
+        
+    }
+    .nav ul{
+        width: 98%;
+        height: 100px;
+        margin: 10px 1%;
+        overflow: hidden;
+        display: inline-block;
+        box-shadow: 10px 10px 10px 10px  rgba(0, 12, 19, 0.27);
+        display: inline-flex;
+        justify-content: space-around;
+       
+    }
+    .nav ul li a{
+        float: left;
+        font-size: 12px;
+        position: relative;
+        color: rgba(51, 51, 51, 1);
+        line-height: 100px;
+        
+    } 
+    .nav ul li  ::after{
+        content: '';
+        width: 1px;
+        height: 30px;
+        display: inline-block;
+        background-color: rgba(51, 51, 51, 1);
+        position: absolute;
+        top: 35px;
+        left: -5px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .sbox{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .sbox img{
+        width: 40%;
+        height: 120px;
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .sbox .con{
+        width:40% ;
+        height: 120px;
+        
+        float: right;
+        margin-top: 15px;
+        margin-right: 8px;
+    }
+    .sbox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 4px;
+          margin-top: 10px;
+          font-size:8px;
+         
+    }
+    .sbox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 8px;
+        line-height: 22px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 4; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .ebox{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .ebox .con{
+        width: 40%;
+        height: 120px;
+        
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .ebox img{
+        width: 40%;
+        height: 120px;
+        float: right;
+        margin-top: 15px;
+        margin-right: 7px;
+    }
+    .ebox .con h2{
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 4px;
+        margin-top: 10px;
+        font-size:8px;
+    }
+    .ebox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 8px;
+        line-height: 22px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 4; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .download{
+        width: 100%;
+        height: 50px;
+        background-color: #000000;
+        opacity: 0.57;
+        text-align: center;
+        position: relative;
+    }
+    .download span a {
+        width: 145px;
+        height: 54px;
+        line-height: 50px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 1);
+        border-bottom: 3px solid rgba(255, 255, 255, 1);
+        margin-left:25px ;
+        
+    }
+   footer{
+       width: 100%;
+       height: auto;
+      
+   }
+   footer .foot_top{
+       width: 100%;
+       height: 200px;
+       background-color: black;
+   }
+   .foot_top .top_left{
+       width: 40%;
+      font-size: 8px;
+       float: left;
+       color: rgba(255, 255, 255, 1);
+       display: inline-block;
+       line-height:24px ;
+       margin-top: 30px;
+       margin-left: 15px;
+   }
+   .foot_top .top_left h3{
+       font-size: 12px;
+       line-height: 16px;
+
+   }
+   .foot_top .top_right{
+    width: 30%;
+    font-size: 12px;
+    float: right;
+    line-height:16px ;
+    display: inline-block;
+    margin-right: 10px;
+}
+   .foot_top .top_right h3{
+    font-size:12px ;
+    margin-top: 28px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+   .foot_top .top_right a{
+    color: rgba(255, 255, 255, 1);
+ } 
+   .foot_bottom{
+     width: 100%;
+     height: 50px;
+     font-size: 12px;
+     text-align: center;
+     /* line-height: 50px; */
+     border-top:1px solid rgba(255, 255, 255, 1) ;
+     background-color: black;
+     color: rgba(255, 255, 255, 1) ;
+
+ }
+   .foot_bottom span{
+     
+     margin-right: 5px;
+     
+ }
+ 
+  
+
+}

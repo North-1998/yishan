@@ -1,0 +1,504 @@
+@media only screen and (min-width: 1160px){
+    header{
+        width: 100%;
+        height: 127px;
+        position: relative;
+        
+    }
+    .logo{
+        width: 302px;
+        height: 70px;
+        position: absolute;
+        left: 159px;
+        top: 31px;
+       
+        display: inline-block;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .menubox{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        /* background-color: royalblue; */
+        float: right;
+        padding: 10px;
+        box-sizing: border-box;
+       /* position: absolute;*/
+        right: 0;
+        top: 90px;
+       
+    }
+    .menubox ul{
+        width: 60%;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        background-color: #ffffff;
+    }
+    .menubox ul li a{
+        float: left;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+        
+    }
+    .more{
+        display: none;
+    }
+    video{
+        width: 100%;
+        height: 800px;
+    }
+    .desc{
+        width: 100%;
+        height: 200px;
+        background-color: #dec5a5;
+        padding: 45px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    .desc p{
+        font-size: 20px;
+        color: #fff;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .sbox{
+        width: 100%;
+        height: 350px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .sbox img{
+        width: 50%;
+        height: 350px;
+        float: left;
+        
+    }
+    .sbox .con{
+        width:40% ;
+        height: 320px;
+        
+        float: right;
+        margin-top: 15px;
+        margin-right: 80px;
+    }
+    .sbox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 40px;
+          margin-top: 10px;
+         
+    }
+    .sbox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 20px;
+        line-height: 34px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 7; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .ebox{
+        width: 100%;
+        height: 350px;
+       
+    }
+    .ebox .con{
+        width: 40%;
+        height: 320px;
+        
+        float: left;
+        margin-top: 15px;
+        margin-left: 120px;
+    }
+    .sbox .con a{
+        color: black;
+    }
+    .ebox .con a{
+        color: black;
+    }
+    .ebox img{
+        width:50% ;
+        height: 350px;
+        
+        float: right;
+       
+    }
+    .ebox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 40px;
+          margin-top: 10px;
+    }
+    .ebox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 20px;
+        line-height: 34px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 7; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .others{
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content:space-between ;
+    }
+    .others li{
+        width: 30%;
+        height: 100%;
+        background-color:#80808030;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .notice .image{
+        width: 100%;
+        height: 200px;
+
+    }
+    .notice h2{
+        line-height: 50px;
+        font-weight: 400;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .notice span a{
+        color: black;
+        padding: 5px;
+        background-color: blanchedalmond;
+        border-radius: 5px;
+        float: right;
+        margin-top: 8px;
+    }
+    .notice p{
+        width: 100%;
+        border-bottom: 1px solid #000000;
+        line-height: 25px;
+    }
+    .notice a{
+        color: #000000;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+       
+    }
+    footer .foot_top{
+        width: 100%;
+        height: 260px;
+        background-color: black;
+    }
+    .foot_top .top_left{
+        width: 40%;
+       
+        float: left;
+        color: rgba(255, 255, 255, 1);
+        display: inline-block;
+        line-height:24px ;
+        margin-top: 54px;
+        margin-left: 115px;
+    }
+    .foot_top .top_left h3{
+        line-height: 50px;
+ 
+    }
+    .foot_top .top_right{
+     width: 40%;
+     
+     float: right;
+     line-height:24px ;
+     display: inline-block;
+ }
+    .foot_top .top_right h3{
+     margin-top: 54px;
+     line-height: 50px;
+     color: rgba(255, 255, 255, 1);
+ }
+    .foot_top .top_right a{
+     color: rgba(255, 255, 255, 1);
+  } 
+    .foot_bottom{
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      /* line-height: 50px; */
+      border-top:1px solid rgba(255, 255, 255, 1) ;
+      background-color: black;
+      color: rgba(255, 255, 255, 1) ;
+ 
+  }
+    .foot_bottom span{
+      line-height: 50px;
+      margin-right: 20px;
+      
+  }
+    
+
+}
+@media only screen and (max-width: 1160px){
+    header{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        
+    }
+    .logo{
+        width: 150px;
+        height:30px;
+        position: absolute;
+        left: 25px;
+        top: 15px;
+       
+        display: inline-block;
+    }
+    
+    .logobox{
+        width: 15%;
+        height: 70%;
+        
+        display: inline-block;
+
+    }
+    .more{
+        width: 35px;
+        height: 70%;
+        margin: 10px;
+        float: right;
+        
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menubox{
+        z-index: 9999;
+        width: 30%;
+        height: auto;
+        
+        background-color: rgb(31, 169, 164);
+        position: absolute;
+        right: 0px;
+        top: 45px;
+        display: none;
+    }
+    .menubox li a{
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+
+    }
+    video{
+        width: 100%;
+        height: 211px;
+    }
+    .desc{
+        width: 100%;
+        height: 140px;
+        background-color: #dec5a5;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .desc p{
+        font-size: 12px;
+        color: #fff;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .sbox{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .sbox img{
+        width: 40%;
+        height: 120px;
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .sbox .con{
+        width:40% ;
+        height: 120px;
+        
+        float: right;
+        margin-top: 15px;
+        margin-right: 8px;
+    }
+    .sbox .con h2{
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 4px;
+          margin-top: 10px;
+          font-size:8px;
+         
+    }
+    .sbox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 8px;
+        line-height: 22px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 4; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .sbox .con a{
+        color: black;
+    }
+    .ebox{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(242, 242, 242, 1);
+    }
+    .ebox .con{
+        width: 40%;
+        height: 120px;
+        
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .ebox img{
+        width: 40%;
+        height: 120px;
+        float: right;
+        margin-top: 15px;
+        margin-right: 7px;
+    }
+    .ebox .con h2{
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 4px;
+        margin-top: 10px;
+        font-size:8px;
+    }
+    .ebox .con p{
+        color: rgba(51, 51, 51, 1);
+        font-size: 8px;
+        line-height: 22px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; 
+        -webkit-line-clamp: 4; /*数字是几就显示几行*/
+        -webkit-box-orient: vertical;
+    }
+    .ebox .con a{
+        color: black;
+
+    }
+    .others{
+        padding: 20px 30px;
+        width: 100%;
+       box-sizing: border-box;
+        overflow: hidden;
+      
+    }
+    .others li{
+        width: 100%;
+        height: 100%;
+        background-color: #80808030;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+
+    }
+    .notice .image{
+        width: 100%;
+        height: 200px;
+
+    }
+    .notice h2{
+        line-height: 50px;
+        font-weight: 400;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .notice span a{
+        color: black;
+        padding: 5px;
+        background-color: blanchedalmond;
+        border-radius: 5px;
+        float: right;
+        margin-top: 8px;
+    }
+    .notice p{
+        width: 100%;
+        border-bottom: 1px solid #000000;
+        line-height: 25px;
+    }
+    .notice a{
+        color: #000000;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+       
+    }
+    footer .foot_top{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+    }
+    .foot_top .top_left{
+        width: 40%;
+       font-size: 8px;
+        float: left;
+        color: rgba(255, 255, 255, 1);
+        display: inline-block;
+        line-height:24px ;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .foot_top .top_left h3{
+        font-size: 12px;
+        line-height: 16px;
+ 
+    }
+    .foot_top .top_right{
+     width: 30%;
+     font-size: 12px;
+     float: right;
+     line-height:16px ;
+     display: inline-block;
+     margin-right: 10px;
+ }
+    .foot_top .top_right h3{
+     font-size:12px ;
+     margin-top: 28px;
+     line-height: 16px;
+     color: rgba(255, 255, 255, 1);
+ }
+    .foot_top .top_right a{
+     color: rgba(255, 255, 255, 1);
+  } 
+    .foot_bottom{
+      width: 100%;
+      height: 50px;
+      font-size: 12px;
+      text-align: center;
+      /* line-height: 50px; */
+      border-top:1px solid rgba(255, 255, 255, 1) ;
+      background-color: black;
+      color: rgba(255, 255, 255, 1) ;
+ 
+  }
+    .foot_bottom span{
+      
+      margin-right: 5px;
+      
+  }
+}
