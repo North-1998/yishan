@@ -1,15 +1,24 @@
 @media only screen and (min-width: 1160px){
     header{
         width: 100%;
-        height: 127px;
+        height: 100px;
         position: relative;
         
+    }
+    .logo2{
+        width: 575px;
+        height: 70px;
+        position: absolute;
+        left: 180px;
+        top: 40px;
+       
+        display: inline-block;
     }
     .logo{
         width: 102px;
         height: 70px;
         position: absolute;
-        left: 159px;
+        left: 80px;
         top: 31px;
        
         display: inline-block;
@@ -20,7 +29,7 @@
     }
     .company_name{
         position: absolute;
-        left: 288px;
+        left: 200px;
         top: 50px;
         display: inline-block;
         font-size: 36px;
@@ -49,6 +58,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
+        margin-right: 20px;
         background-color: #ffffff;
     }
     .menubox ul li a{
